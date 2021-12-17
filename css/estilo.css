@@ -1,0 +1,195 @@
+body{
+  background-color: #d9d9d9;
+  margin-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+}
+
+h6 {
+  color: #ad9d98;
+}
+
+p, #sevizi li{
+  color:grey;
+  font-size: 1em;
+  padding:20px;
+}
+
+a, a:hover, a:visited, a:link {
+  text-decoration: none;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  -webkit-text-align: center;
+}
+
+section {
+  margin-top: 8em;
+}
+
+.titulo-seccion{
+  color: black;
+  font-size: 2em;
+  letter-spacing: 4px;
+  margin: 3em 0px 2em 0px;
+}
+
+.titulo-progetto {
+  color: grey;
+  font-size: 1.5em;
+  letter-spacing: 4px;
+  margin: 1.5em 0px 1.5em 0px;
+}
+
+.imagenes{
+  padding: 1em;
+}
+
+.zoom {
+  transition: transform 1s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+.navbar {
+  margin:0.8em 0em;
+  padding: 0.2em 1em 0.2em 1em;
+}
+
+.carousel-item {
+  width:100%;
+  height: 550px;
+
+}
+
+.carousel-control-next, .carousel-control-prev  {
+  filter: invert(100%);
+}
+
+figure {
+  margin: 0px 0px 1em 0px;
+}
+
+figcaption {
+  color: grey;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.w3-animate-left, .w3-animate-right, .w3-animate-opacity {
+  animation-duration: 2s;
+}
+
+@media(max-width:426px) {
+  .navbar-brand, .navbar-toggler, .nav-link  {
+    font-size: 0.8em;
+    padding: 0.1em;
+    margin:0.5em 0em;
+  }
+
+  .titulo-seccion{
+    font-size: 1.2em;
+    letter-spacing:2px;
+    margin: 3em 0px 1em 0px;
+  }
+
+  .titulo-progetto {
+    font-size: 1em;
+    letter-spacing: 4px;
+    margin: 2em 0px 1.5em 0px;
+  }
+
+  section{
+    margin-top: 5em;
+  }
+}
+
+@media(min-width:768px) {
+  p, #servizi li {
+    font-size: 1.5em;
+    margin-bottom:0px;
+    color: grey;
+  }
+
+  section#progetti img {
+    width: 90%;
+  }
+
+  .navbar-brand, .navbar-toggler, .nav-link  {
+    font-size: 1em;
+  }
+
+  figcaption {
+    font-size: 1.2em;
+    color: grey;
+  }
+
+
+  @keyframes altura1 {
+    0% { transform: translate(0px, 600px);}
+    100% {transform: translate(0px,0px);}
+  }
+
+  @-o-keyframes altura1 {
+    0% { transform: translate(0px, 600px);}
+    100% {transform: translate(0px,0px);}
+  }
+  @-moz-keyframes altura1 {
+    0% { transform: translate(0px, 600px);}
+    100% {transform: translate(0px,0px);}
+  }
+
+  @-webkit-keyframes altura1 {
+    0% { transform: translate(0px, 600px);}
+    100% {transform: translate(0px,0px);}
+  }
+
+  @keyframes altura2 {
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(0px, 100px);}
+    100% {transform: translate(0px, 0px);}
+  }
+
+  @-o-keyframes altura2 {
+    0% {transform: translate(0px, 0px); }
+    50% {transform: translate(0px, 100px);}
+    100% {transform: translate(0px, 0px);}
+  }
+  @-moz-keyframes altura2 {
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(0px, 100px);}
+    100% {transform: translate(0px, 0px);}
+  }
+
+  @-webkit-keyframes altura2 {
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(0px, 100px);}
+    100% {transform: translate(0px, 0px);}
+  }
+
+  @keyframes altura3 {
+    0% { transform: translate(0px, -200px);}
+    50% {transform: translate(0px, 120px);}
+    100% {transform: translate(0px,0px);}
+  }
+
+  @-o-keyframes altura3 {
+    0% { transform: translate(0px, -200px);}
+    50% {transform: translate(0px, 120px);}
+    100% {transform: translate(0px,0px);}
+  }
+
+  @-moz-keyframes altura3 {
+    0% { transform: translate(0px, -200px);}
+    50% {transform: translate(0px, 120px);}
+    100% {transform: translate(0px,0px);}
+  }
+
+  @-webkit-keyframes altura3 {
+    0% { transform: translate(0px, -200px);}
+    50% {transform: translate(0px, 120px);}
+    100% {transform: translate(0px,0px);}
+  }
