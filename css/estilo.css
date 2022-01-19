@@ -32,7 +32,7 @@ section {
   color: black;
   font-size: 2em;
   letter-spacing: 4px;
-  margin: 3em 0px 2em 0px;
+  margin: 2em 0px 2em 0px;
 }
 
 .titulo-progetto {
@@ -93,7 +93,7 @@ figcaption {
   .titulo-seccion{
     font-size: 1.2em;
     letter-spacing:2px;
-    margin: 3em 0px 1em 0px;
+    margin: 1em 0px 1em 0px;
   }
 
   .titulo-progetto {
