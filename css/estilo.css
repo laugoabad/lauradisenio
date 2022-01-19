@@ -41,6 +41,9 @@ section {
   letter-spacing: 4px;
   margin: 1.5em 0px 1.5em 0px;
 }
+#manifesto ul li {
+  font-size: 2em;
+}
 
 .imagenes{
   padding: 1em;
@@ -104,6 +107,10 @@ figcaption {
   section{
     margin-top: 3em;
   }
+  #manifesto ul li {
+  font-size: 1em;
+}
+
 }
 
 @media(min-width:768px) {
